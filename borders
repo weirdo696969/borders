@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="styles.css" />
+<body>
+<div class="a">
+  <div class="b">
+    <div class="c">
+      <div class="d">
+        <div class="e">
+          <div class="f">
+            <div class="g">
+              <div class="h">
+                <div class="i">
+                  <div class="j">
+                    <div class="k">
+                      <div class="l">
+                         <p> </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+<button class="button">gooberslipsyamos</button>
+</body>
+</html>
+
+
+body{
+  padding: 25px;
+}
+.title {
+	color: #5C6AC4;
+}
+.a {
+  border: 10px inset #8c130a;
+}
+.b {
+  border:10px outset #e01809;
+}
+.c {
+  border:10px inset #e08a09;
+}
+.d {
+  border:10px outset #ede209;
+}
+.e {
+  border:10px inset #6ced09;
+}
+.f {
+  border:10px outset #11ba1f;
+}
+.g {
+  border:10px inset #17e8be;
+}
+.h {
+  border:10px outset #11a7f7;
+}
+.i {
+  border:10px inset #1336e8;
+}
+.j {
+  border:10px outset #8e0ee3;
+}
+.k {
+  border:10px inset #ce0ee3;
+}
+.l {
+  border:10px outset #e30ebc;
+}
+body {
+  background: linear-gradient(0deg, grey, white, grey);
+}
+button.button {border-radius:10px;
+border-image: linear-gradient(rgba(255, 255,255, 0), rgba(255, 255, 255, 0)), linear-gradient(100deg, blue, red);
+}
